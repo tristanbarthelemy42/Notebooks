@@ -1,35 +1,4 @@
-{
-    // Main Menu
-    // @jupyterlab/mainmenu-extension:plugin
-    // Main JupyterLab menu settings.
-    // *************************************
-
-    // The application menu description.
-    // Note: To disable a menu or a menu item,
-    // copy it to User Preferences and add the
-    // "disabled" key. The following example will disable
-    // the "Tabs" menu and "Restart Kernel and Run up to Selected Cell"
-    // item:
-    // {
-    //   "menus": [
-    //     {
-    //       "id": "jp-mainmenu-tabs",
-    //       "disabled": true
-    //     },
-    //     {
-    //       "id": "jp-mainmenu-kernel",
-    //       "items": [
-    //         {
-    //           "command": "notebook:restart-and-run-to-selected",
-    //           "disabled": true
-    //         }
-    //       ]
-    //     }
-    //   ]
-    // }
-    // 
-    // Menu description:
-    "menus": [
+{    "menus": [
         {
             "disabled": true,
             "id": "jp-mainmenu-file",
