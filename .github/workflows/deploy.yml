@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - "main.ipynb"
       - "jupyter-lite.json"
       - "requirements.txt"
       - "overrides.json"
