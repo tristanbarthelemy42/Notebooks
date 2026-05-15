@@ -31,7 +31,7 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Build JupyterLite
-        run: jupyter lite build --lite-dir . --contents python.ipynb --output-dir _output
+        run: jupyter lite build --lite-dir . --contents python.ipynb --output-dir _output --settings-overrides overrides.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
