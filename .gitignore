@@ -3,3 +3,5 @@ notebooks/_output/
 .venv/
 __pycache__/
 .DS_Store
+
+.jupyterlite.doit.db
