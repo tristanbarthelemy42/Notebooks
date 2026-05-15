@@ -1,7 +1,7 @@
 {
   "LiteBuildConfig": {
     "contents": [
-      "python.ipynb"
+      "main.ipynb"
     ],
     "output_dir": "_output"
   }
