@@ -3,6 +3,9 @@
     "contents": [
       "main.ipynb"
     ],
-    "output_dir": "_output"
+    "output_dir": "_output",
+    "federated_extensions": [
+      "labextensions/jupyterlab-auto-run"
+    ]
   }
 }
